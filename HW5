@@ -1,6 +1,40 @@
 //unit6.hw
 //Group members: Katie Kwatinetz, Lanaiya Walters, Jimmy Winchester
 
+/*
+Write a C program that asks the user to enter a string and displays a report that shows 
+the most occurring character, how many lower case letters, how many upper case letters and how many digits. 
+
+After the report is printed, print the upper case of all the letters in ascending order, in addition to the original entered string.
+
+You must use the code skeleton provided at the end. 
+You are NOT supposed to change anything to the given prototypes and to the main function (You may add other functions if you see fit). 
+
+Sample Run1:
+
+Enter your string: a6Bc D3! F?.
+All characters appears once
+There is/are 2 lower case letter(s)
+There is/are 3 upper case letter(s)
+There is/are 2 digit(s)
+------
+
+ABCDF 
+a6Bc D3! F?.
+
+Sample Run2:
+
+Enter your string: aBc XAy3!af
+The most occuring character is: a
+There is/are 5 lower case letter(s)
+There is/are 3 upper case letter(s)
+There is/are 1 digit(s)
+------
+
+AAABCFXY
+aBc XAy3!af
+*/
+
 //include directives go here… 
 #include <stdio.h>
 #include <stdlib.h>
