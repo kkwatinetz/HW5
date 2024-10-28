@@ -34,9 +34,10 @@ int most_occuring_character ( char *str){
 
 }
 
-void count_low_up_digit ( char *str, int *lower, int *upper , int *digit){
-	int index;
-	for(index = 0; index < strlen(str); index++)
+void count_low_up_digit ( char *str, int *lower, int *upper , int *digit)
+{
+    int index;
+    for(index = 0; index < strlen(str); index++)
     {
         if (isdigit(str[index]))
         {
