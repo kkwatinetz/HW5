@@ -17,7 +17,11 @@ All characters appears once
 There is/are 2 lower case letter(s)
 There is/are 3 upper case letter(s)
 There is/are 2 digit(s)
------- */
+------ 
+ABCDF 
+a6Bc D3! F?.
+
+*/
 
 //include directives go here…
 #include <stdio.h>
