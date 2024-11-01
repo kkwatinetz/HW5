@@ -33,9 +33,30 @@ void count_low_up_digit ( char *str, int *lower, int *upper , int *digit);
 char * Up_letters ( char *str);
 
   //Function definitions…
-int most_occuring_character ( char *str){
+int most_occuring_character(char *str) {
+    int count[256] = {0};
+    int counter = 0;
+    char mostChar = -1;
     int index;
 
+    // Count occurrences of each character
+    for (int index = 0; str[index] != '\0'; index++) {
+        if(str[index] != ' '){
+            char c = str[index];
+            count[(char)c]++;
+                if (count[(char)c] > counter) {
+                counter = count[(char)c];
+                mostChar = c;
+            }
+        }
+    }
+
+    // Check if max_count is 1 (all characters appear once)
+    if (counter <= 1) {
+        return -1; // All characters appear only once
+    }
+
+    return (int)mostChar;
 }
 
 void count_low_up_digit ( char *str, int *lower, int *upper , int *digit)
