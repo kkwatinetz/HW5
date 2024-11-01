@@ -136,6 +136,8 @@ int main() {
       printf ("There is/are %d upper case letter(s)\n", upper_case);
       printf ("There is/are %d digit(s)\n", digits);
 
+      printf ("------\n\n");
+
       upper_sorted = Up_letters ( str );
       printf ("%s\n", upper_sorted);
       printf ("%s\n", str);
